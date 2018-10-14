@@ -1,0 +1,109 @@
+#videoBox {
+  width: calc(1280px * 0.8);
+  height: calc(720px * 0.8);
+  margin: 32px auto 32px auto;
+  background-color: #DDDDDD;
+}
+
+#listManagerBox {
+  width: 1280px;
+  height: 64px;
+}
+
+#playBtn {
+  width: 128px;
+  height: 36px;
+  margin-right: 36px;
+  color: black;
+  float: right;
+}
+
+#addBtn {
+  width: 128px;
+  height: 36px;
+  color: black;
+  float: right;
+}
+
+#listBox {
+  width: calc(1280px * 0.8);
+  margin: 16px auto 0 auto;
+}
+
+.componentBox {
+  width: calc(1280px * 0.8);
+  height: 64px;
+  margin-bottom: 16px;
+}
+
+.componentBox:last-of-type {
+  margin-bottom: 128px;
+}
+
+.indexView {
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  float: left;
+}
+
+.regedLink {
+  width: calc(1280px * 0.8 - 64px - 64px);
+  height: 62px;
+  padding-left: 16px;
+  text-align: left;
+  line-height: 64px;
+  float: left;
+}
+
+.delBtn {
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+}
+
+.delBtn:hover {
+  background-color: #DFDFDF;
+}
+
+.delIco {
+  width: 62px;
+  height: 62px;
+  line-height: 64px;
+}
+
+#addDialog {
+  width: 1024px;
+  height: 256px;
+  margin-left: 256px;
+  top: 256px;
+  padding: 16px;
+  float: left;
+  background-color: #FFFFFF;
+  position: fixed;
+  display: none;
+  z-index: 5;
+}
+
+#linkInput {
+  width: 992px;
+  height: 46px;;
+  margin-top: 32px;
+  margin-bottom: 110px;
+}
+
+#cancelBtn {
+  width: 128px;
+  height: 36px;
+  margin-right: 16px;
+  float: right;
+}
+
+#regBtn {
+  width: 128px;
+  height: 36px;
+  float: right;
+}

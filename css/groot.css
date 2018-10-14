@@ -1,0 +1,38 @@
+#humanBox {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+#humanInput {
+  width: 100%;
+  max-height: 80%;
+  font-size: 28px;
+}
+
+#grootBox {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+#grootInput {
+  width: 100%;
+  max-height: 80%;
+  font-size: 28px;
+}
+
+#buttonBox {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+#buttonBox {
+  padding-top: 36px;
+}
+
+#humanToGroot {
+  height: 100px;
+  line-height: 100px;
+}

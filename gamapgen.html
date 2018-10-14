@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Untitled</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/base.css" type="text/css" rel="stylesheet"/>
+        <link href="css/gamapgen.css" type="text/css" rel="stylesheet"/>
+    </head>
+
+    <body>
+
+        <nav id="topBar">
+            <div class="nav-wrapper blue lighten">
+                <div id="topBarBox">
+                    <ul class="left hide-on-med-and-down">
+                        <li>
+                        <a href="index.html">Untitled Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="bodyWrapper" class="center">
+            <div id="bodyBox">
+                <div id="canvasBox">
+                    <canvas id="canvas"> </canvas>
+                </div>
+
+                <div id="sideBox">
+                    <div id="funcBox">
+                        <div id="resetBtn" class="funcBtn elevation1">
+                            <div class="funcBtnDes">Reset</div>
+                        </div>
+                        <div id="convertBtn" class="funcBtn elevation1">
+                            <div class="funcBtnDes">Convert</div>
+                        </div>
+                    </div>
+                    <div id="optionBox">
+                        <div id="item1Btn" class="selectBtn elevation1">
+                            <img class="selBtnIcon" src="res/img/gamapgen/item1.png"></img>
+                            <div class="selBtnDes">Item 1</div>
+                        </div>
+                        <div id="item2Btn" class="selectBtn elevation1">
+                            <img class="selBtnIcon" src="res/img/gamapgen/item2.png"></img>
+                            <div class="selBtnDes">Item 2</div>
+                        </div>
+                        <div id="item3Btn" class="selectBtn elevation1">
+                            <img class="selBtnIcon" src="res/img/gamapgen/item3.png"></img>
+                            <div class="selBtnDes">Item 3</div>
+                        </div>
+                        <div id="block1Btn" class="selectBtn elevation1">
+                            <img class="selBtnIcon" src="res/img/gamapgen/block1.png"></img>
+                            <div class="selBtnDes">Block 1</div>
+                        </div>
+                        <div id="block2Btn" class="selectBtn elevation1">
+                            <img class="selBtnIcon" src="res/img/gamapgen/block2.png"></img>
+                            <div class="selBtnDes">Block 2</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="resultDialog" class="elevation4">
+                  <textarea id="resultInput" type=text></textarea>
+                  <a id="cancelBtn" class="waves-effect waves-light lighten-4 btn-flat">CANCEL</a>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/jcanvas.min.js"></script>
+        <script type="text/javascript" src="js/Materialize.min.js"></script>
+        <script type="text/javascript" src="js/base.js"></script>
+        <script type="text/javascript" src="js/gamapgen.js"></script>
+    </body>
+</html>

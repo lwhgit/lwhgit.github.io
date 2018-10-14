@@ -1,0 +1,46 @@
+.codeBoxWrapper {
+  width: 1236px;
+  height: calc(2px + 50px + 21px * 3 + 10px);
+  margin-top: 64px;
+  margin-left: 150px;
+  background-color: #FFFFFF;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+}
+
+
+.titleBox {
+  width: 1234px;
+  height: 42px;
+  padding-left: 36px;
+  margin-bottom: 8px;
+  background-color: #FAFAFA;
+  font-family: initial;
+  text-align: left;
+  line-height: 42px;
+  border-radius: 4px 4px 0 0;
+}
+
+.lineBox {
+  width: 46px;
+  height: 21px;
+  color: #C8C8C8;
+  font-size: 14px;
+  font-family: initial;
+  text-align: right;
+  float: left;
+}
+
+.line {
+  width: 46px;
+  height: 21px;
+}
+
+.codeBox {
+  width: 1175px;
+  color: #000000;
+  font-size: 14px;
+  font-family: Consolas;
+  text-align: left;
+  float: right;
+}

@@ -1,0 +1,9 @@
+#debugger {
+  width: 576px;
+  height: 324px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #FFF;
+  opacity: 0.4;
+}

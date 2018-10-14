@@ -1,0 +1,115 @@
+#pathBox {
+    width: 100%;
+    height: 56px;
+    padding-top: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+}
+
+#pathView {
+    height: 48px;
+    padding-left: 28px;
+    text-align: left;
+    line-height: 48px;
+    font-size: 18px;
+    font-family: consolas;
+    font-weight: 600;
+    border-left: 4px solid #353535;
+}
+
+#listBox {
+    width: 100%;
+    min-height: calc(100% - 56px - 16px - 8px);
+    margin-top: calc(48px + 16px + 8px);
+    margin-bottom: 8px;
+    padding: 32px;
+    border: 2px solid #efefef;
+    border-radius: 16px;
+}
+
+#loadingProgress {
+    position: fixed;
+    top: calc(50%);
+    left: calc(50%);
+}
+
+.dirList {
+    width: 100%;
+    height: 64px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+    line-height: 64px;
+    box-shadow: 0px 1px 4px 0px #afafaf;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.dirList:hover {
+    box-shadow: 0px 3px 10px 0px #afafaf;
+}
+
+.fileList {
+    width: 100%;
+    height: 64px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+    line-height: 64px;
+    box-shadow: 0px 1px 3px 0px #afafaf;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.fileList:hover {
+    box-shadow: 0px 2px 6px 0px #afafaf;
+}
+
+.dirIcon {
+    width: 32px;
+    height: 32px;
+    margin: 16px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+}
+
+.fileIcon {
+    width: 32px;
+    height: 32px;
+    margin: 16px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+}
+
+.titleView {
+    height: 64px;
+    float: left;
+    font-size: 20px;
+}
+
+.optionBtn {
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+    float: right;
+}
+
+.moreIcon {
+    width: 32px;
+    height: 32px;
+    margin: 16px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    float: left;
+    transition: background-color 0.2s;
+}
+
+.moreIcon:hover {
+    background-color: #efefef;
+}
