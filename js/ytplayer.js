@@ -45,7 +45,7 @@ var refreshEvent = function() {
     var parTarget = curTarget.parentElement;
     var index = parseInt(parTarget.firstChild.innerHTML);
     console.log(parTarget);
-    ytArray.slice(index, 1);
+    ytArray.splice(index, 1);
     $(parTarget).remove();
   });
 }
