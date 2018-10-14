@@ -107,9 +107,6 @@ function onPlayerStateChange(event) {
     }
 }
 
-registerLink("https://www.youtube.com/watch?v=QbhkI4KXpXs");
-registerLink("https://www.youtube.com/watch?v=Fm5iP0S1z9w");
-
 /*
 for (var i = 0;i < link.length;i ++) {
   console.log(link[i] + "\n\t" + REG_LINK.test(link[i]));
