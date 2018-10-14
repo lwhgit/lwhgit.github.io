@@ -1,8 +1,5 @@
 const REG_LINK = /^https{0,1}:\/\/[(www\.youtube\.com\/watch\?v=.{11,11})(youtu\.be\/.{11,11})]/;
-var link = ["https://www.youtube.com/watch?v=iLlLLBuuvVU",
-            "http://www.youtube.com/watch?v=iLlLLBuuvVU",
-            "https://youtu.be/iLlLLBuuvVU",
-            "http://youtu.be/iLlLLBuuvVU"];
+var link = [];
 
 var videoBox = $("#videoBox");
 
